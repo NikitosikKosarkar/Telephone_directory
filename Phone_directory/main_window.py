@@ -65,7 +65,6 @@ class MainWindow(QWidget):
             filters_layout.addWidget(line_edit, 1, col)
         self.layout.addWidget(filters_group)
 
-        # Таблица
         self.table = QTableWidget(self)
         self.table.setColumnCount(8)
         self.table.setHorizontalHeaderLabels([
