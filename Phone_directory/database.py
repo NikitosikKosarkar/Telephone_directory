@@ -6,11 +6,11 @@ class Database:
     def __init__(self):
         try:
             self.conn = psycopg2.connect(
-                database='postgres',
-                user='postgres',
-                password='Gekohmaru_7915',
+                database='database_name',
+                user='user_name',
+                password='your_password',
                 host='localhost',
-                port='5434'
+                port='your_port'
             )
             self.cursor = self.conn.cursor()
             print("[DEBUG] Connected to the database")
