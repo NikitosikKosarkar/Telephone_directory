@@ -8,7 +8,7 @@ class UtilsDialog(QDialog):
     def __init__(self, db):
         super().__init__()
         self.db = db
-        self.setWindowTitle("Utils")
+        self.setWindowTitle("Утилиты")
         self.resize(400, 400)
 
         self.layout = QVBoxLayout()
