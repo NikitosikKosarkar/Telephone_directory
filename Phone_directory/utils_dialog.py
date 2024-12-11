@@ -38,13 +38,13 @@ class UtilsDialog(QDialog):
 
         self.buttons_layout = QHBoxLayout()
 
-        self.add_button = QPushButton("Add", self)
+        self.add_button = QPushButton("Добавить", self)
         self.add_button.clicked.connect(self.add_record)
 
-        self.update_button = QPushButton("Update", self)
+        self.update_button = QPushButton("Обновить", self)
         self.update_button.clicked.connect(self.update_record)
 
-        self.delete_button = QPushButton("Delete", self)
+        self.delete_button = QPushButton("Удалить", self)
         self.delete_button.clicked.connect(self.delete_record)
 
         self.buttons_layout.addWidget(self.add_button)
