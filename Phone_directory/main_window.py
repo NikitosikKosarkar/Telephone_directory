@@ -78,7 +78,7 @@ class MainWindow(QWidget):
 
         self.layout.addWidget(self.table)
 
-        self.utils_button = QPushButton("Utils")
+        self.utils_button = QPushButton("Утилиты")
         self.utils_button.setSizePolicy(QSizePolicy.Fixed, QSizePolicy.Fixed)
         self.utils_button.clicked.connect(self.show_utils_dialog)
         self.layout.addWidget(self.utils_button, alignment=Qt.AlignRight)
